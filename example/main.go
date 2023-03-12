@@ -16,7 +16,7 @@ func main() {
 	// Set Log in microseconds
 	log.SetFlags(log.Default().Flags() | log.Lmicroseconds)
 
-	// Create jobs worker pool with Number of Workers equal to numWorkers and 
+	// Create jobs worker pool with Number of Workers equal to numWorkers and
 	// Jobs Queue equal to numWorkers
 	j := jobs.New(numWorkers, numWorkers, func(in interface{}) (out interface{}) {
 		out = in
