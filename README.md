@@ -7,9 +7,12 @@ There is golang package to create and use a worker pool to limit the number of G
 
 ## Basic usage example
 
-Look example at example folder
+Look example at example folder:
 
-    go run ./example
+    go run ./examples/jobs
+
+Or run this example in playground:
+<https://go.dev/play/p/Bnme-msu2Tb>
 
 ## Licence
 
